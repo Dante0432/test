@@ -1,0 +1,110 @@
+header{
+     height: 5.2em;
+}
+header #loginForm{
+    font-size: 0.6em;
+    left: 5%;
+    min-width: 27em;
+    position: absolute;
+    
+}
+
+header #loginForm .name{
+    height: 16px;
+    text-align: left;
+}
+header #loginForm #login{
+    height:1.3em;
+    line-height:1em;
+    width: 6.20em;
+    margin: 8px 0 0 10px;
+}
+header #email, header #password{
+    display: block;
+    margin-top: 0.5em;
+    width: 15em
+}
+header #password{
+    float: left;
+}
+header #login{
+    float: left;
+}
+#signupForm{
+    position: absolute;
+    margin: 5% 0 5% 5%;
+    min-height: 250px;
+    width: 35%;
+    
+}
+#signupForm input{
+    width: 46.7%;
+    margin-top: 2px;
+}
+#signupForm #sgn_email, #signupForm #sgn_password, #signupForm #sgn_confirm{
+    width: 94%;
+  
+}
+#signupForm #signup{
+    height: 18%;
+    width: 17%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.9em;
+    margin: 3% 0 0 0%;
+    min-width: 72px;
+    
+}
+header .logo{
+    left: auto;
+    right: 5%;
+}
+.content{
+    margin-top: 6.5em;
+    margin-bottom: .5em;
+}
+
+/******************************************************************************/
+/******************************* MEDIA QUERIES ********************************/
+/******************************************************************************/
+/* ESTILOS ADICIONALES PARA TABLETS */
+@media screen and (max-width: 800px){
+
+}
+/* ESTILOS ADICIONALES PARA MÓVILES */
+@media screen and (max-width: 639px){
+    header{
+        height: 8em;
+    }
+    header #email, header #password{
+        width: 13em;
+    }
+    .content{
+    margin-top: 10em;
+    }
+        header #loginForm{
+        top:5em;
+    }
+    #signupForm{
+        width: 95%;
+    }
+/*    header #loginForm .field{
+        width: 33%;
+    }
+    header #loginForm .field input{
+        width: 100%;
+    }
+    header #loginForm #login{
+        width: 25%;
+    }*/
+}
+/* ESTILOS ADICIONALES PARA DISPOSITIVOS PEQUEÑOS (TELÉFONOS PEQUEÑOS) */
+@media screen and (max-width: 359px){
+    #signupForm input{
+    width: 94%;
+}
+#signupForm #signup{
+    font-size: 1.5em;
+   
+}
+}

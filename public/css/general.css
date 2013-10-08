@@ -1,0 +1,245 @@
+/**
+Estilos generales de la aplicación, que puedan ser usados en todas las páginas.
+Por ejemplo: fuentes, colores de fondo "corporativos", headers y footers.
+*/
+header{
+    background: #83d1ca; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzgzZDFjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyYjc1NmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #83d1ca 0%, #2b756d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#83d1ca), color-stop(100%,#2b756d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #83d1ca 0%,#2b756d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #83d1ca 0%,#2b756d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #83d1ca 0%,#2b756d 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #83d1ca 0%,#2b756d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83d1ca', endColorstr='#2b756d',GradientType=0 ); /* IE6-8 */
+    font-size: 20px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+header{
+     height: 4em;
+}
+header #loginForm{
+    font-size: 0.6em;
+    left: 5%;
+    min-width: 27em;
+    position: absolute;
+    
+}
+header .logo{
+    float: right;
+    font-size: 2em;
+    left: 5%;
+    position: absolute;
+    padding: 5px;
+    text-transform: uppercase;
+}
+header .logo a{
+    color: #FFFFFF;         /* Color: primary-2*/
+    text-decoration: none;
+}
+header #links{
+    right: 5%;
+    position: absolute;
+    padding-top: 0.7em;
+}
+header #links img{
+    cursor: pointer;   
+}
+header #userName{
+    color: #ffffff;
+    left: 5.4%;
+    position: absolute;
+    top:60%;
+}
+footer{
+    background: #000000;    /* Color: primary-3*/
+    bottom: 0;
+    color: #CCC;
+    font-size: 0.6em;
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+body{
+    /*background: #F2F0F7;     Color: primary-5*/
+    color: #595B5B;         /* Color: primary-2*/
+}
+a{
+    text-decoration: none;
+}
+/* COSAS SELECCIONADAS
+    #ADB6B6                        /* Color: primary-1*
+                            
+*/
+.container{
+    min-width: 300px;
+}
+.content{
+    background: #fff;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+    height: 2.55em;
+    padding:0.55em
+}
+.errorPlaceholder{
+    color: red;
+}
+.buttonBlack {
+   border-top: 1px solid #666666;
+   background: #333333;
+   background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#333333));
+   background: -webkit-linear-gradient(top, #333333, #333333);
+   background: -moz-linear-gradient(top, #333333, #333333);
+   background: -ms-linear-gradient(top, #333333, #333333);
+   background: -o-linear-gradient(top, #333333, #333333);
+   padding: 5px 10px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 1.2em;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   cursor: pointer;
+   }
+.buttonBlack:hover {
+   border-top-color: #363636;
+   background: #363636;
+   color: #ccc;
+   }
+.buttonBlack:active {
+   border-top-color: #050708;
+   background: #050708;
+   }
+ .buttonGreen {
+   border-top: 1px solid #358f84;
+   background: #2d7871;
+   background: -webkit-gradient(linear, left top, left bottom, from(#2d7871), to(#2d7871));
+   background: -webkit-linear-gradient(top, #2d7871, #2d7871);
+   background: -moz-linear-gradient(top, #2d7871, #2d7871);
+   background: -ms-linear-gradient(top, #2d7871, #2d7871);
+   background: -o-linear-gradient(top, #2d7871, #2d7871);
+   padding: 12px 24px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   cursor: pointer;
+   font-size: 16px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.buttonGreen:hover {
+   border-top-color: #215c56;
+   background: #215c56;
+   color: #ffffff;
+   }
+.buttonGreen:active {
+   border-top-color: #1b4742;
+   background: #1b4742;
+   }  
+.cancel {
+    -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+    box-shadow:inset 0px 1px 0px 0px #f5978e;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+    background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+    background-color:#f24537;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    border-top-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    border-bottom-right-radius:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    border-bottom-left-radius:6px;
+    text-indent:0;
+    border:1px solid #d02718;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:25px;
+    line-height:25px;
+    width:80px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #810e05;
+}
+.cancel:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+    background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+    background-color:#c62d1f;
+}.cancel:active {
+    position:relative;
+    top:1px;
+}
+.circular {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+} 
+
+/******************************************************************************/
+/******************************* MEDIA QUERIES ********************************/
+/******************************************************************************/
+/* ESTILOS ADICIONALES PARA TABLETS */
+@media screen and (max-width: 800px){
+    header{
+        /*background: blue;*/
+    }
+}
+/* ESTILOS ADICIONALES PARA MÓVILES */
+@media screen and (max-width: 639px){
+    #accessing header{
+        /*background: green;*/
+       
+    }
+    #accessing header .logo{
+        float: none;
+        font-size: 1.5em;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    footer{
+        font-size: 0.5em;
+        height: 20px;
+        line-height: 20px;
+    }
+}
+/* ESTILOS ADICIONALES PARA DISPOSITIVOS PEQUEÑOS (TELÉFONOS PEQUEÑOS) */
+@media screen and (max-width: 359px){
+    header{
+
+        
+    }
+
+}

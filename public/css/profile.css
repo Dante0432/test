@@ -1,0 +1,184 @@
+.content{
+    margin: 5.5em 0 5em 5%;        
+}
+#userData #principalPhoto{
+    border: 2px solid #2D7871;
+    height: 210px;
+    width: 210px;  
+    -webkit-transition-property: border-radius;
+    -moz-transition-property: border-radius;
+    -o-transition-property: border-radius;
+    transition-property: border-radius;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+#userData #uploadImage{
+    display: none;
+    margin: -110px 0 0 95px;
+    position: absolute;
+    width: 25px;
+    z-index: 1;
+    -webkit-transition-property: display;
+    -moz-transition-property: display;
+    -o-transition-property: display;
+    transition-property: display;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+#userData p{
+    color: #FFFFFF;
+    display: none;
+    margin: -80px 0 0 50px;
+    position: absolute;
+    width: 8em;
+    z-index: 1;
+    -webkit-transition-property: display;
+    -moz-transition-property: display;
+    -o-transition-property: display;
+    transition-property: display;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+#userData:hover #principalPhoto{
+    border-radius: 0;
+}
+#userData:hover {
+    border-radius: 0;
+}
+#userData:hover #uploadImage{
+    display: block;
+}
+#userData:hover p{
+    display: block;
+}
+#userData{
+    cursor: pointer;
+    display: inline-block;
+    width: 210px;
+    height: 210px;
+}
+#userImage{
+    height: auto;
+    display: inline-block;
+    width: auto;
+}
+#userInfo{
+    height: auto;
+    display: inline-block;
+    margin-left: 2%;
+    vertical-align: top;
+    width: 35%;
+}
+#nameUser{
+    font-size: 2em;
+    color: #000000;
+    min-width: 7em;
+    text-overflow: ellipsis; 
+}
+#share{
+    border: 1px solid;
+    height: 2.3em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width: 50%;
+}
+#shareInput{
+    display: inline;
+    width: 75%;
+}
+#shareButton{
+    display: inline;
+    float: right;
+    margin-right: 0;
+    width: 2.5em;
+}
+#wall{
+    border: 1px solid;
+    height: auto;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width:93%;
+}
+.notice{
+    border-bottom: 1px groove;
+    margin-bottom: 0.4em;
+}
+.notice img{
+    width: 45%;
+}
+
+
+/******************************************************************************/
+/******************************* MEDIA QUERIES ********************************/
+/******************************************************************************/
+/* ESTILOS ADICIONALES PARA TABLETS */
+@media screen and (max-width: 800px){
+
+}
+/* ESTILOS ADICIONALES PARA MÓVILES */
+@media screen and (max-width: 639px){
+    header #email, header #password{
+        width: 13em;
+    }
+    #signupForm{
+        width: 95%;
+    }
+    #userInfo{
+        width: auto;
+    }
+    #share{
+        width: 95%;
+    }    
+    #shareInput{
+        display: inline;
+        width: 70%;
+    }
+    #nameUser{
+        margin-top: 16px;
+    }
+
+/*    header #loginForm .field{
+        width: 33%;
+    }
+    header #loginForm .field input{
+        width: 100%;
+    }
+    header #loginForm #login{
+        width: 25%;
+    }*/
+}
+/* ESTILOS ADICIONALES PARA DISPOSITIVOS PEQUEÑOS (TELÉFONOS PEQUEÑOS) */
+@media screen and (max-width: 359px){
+    header{
+
+    }
+    #signupForm input{
+        width: 94%;
+    }
+    #signupForm #signup{
+        font-size: 1.5em;
+   }
+    .content{
+        margin: 6em 0 0.5em 5%;        
+    }
+
+}
