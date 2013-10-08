@@ -1,0 +1,4 @@
+ErrorDocument 404 '/bonfolio/redirect/redirect.php'
+ErrorDocument 403 /bonfolio/redirect/redirect.php
+Order deny,allow
+Deny from all
