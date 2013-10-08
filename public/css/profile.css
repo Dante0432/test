@@ -20,7 +20,7 @@
 }
 
 #userData #uploadImage{
-    display: block;
+    display: none;
     margin: -110px 0 0 95px;
     position: absolute;
     width: 25px;
