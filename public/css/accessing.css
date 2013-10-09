@@ -63,6 +63,18 @@ header .logo{
     margin-top: 6.5em;
     margin-bottom: .5em;
 }
+#facebookLogin, #facebookSignup{
+    background: url("../img/facebook-connect.png") no-repeat scroll center top transparent;
+    cursor: pointer;
+    display: block;
+    height: 42px;
+    margin: 20px auto;
+    text-indent: -8000px;
+    width: 225px;
+}
+#facebookLogin:hover, #facebookSignup:hover{
+    background-position: center -44px;
+}
 
 /******************************************************************************/
 /******************************* MEDIA QUERIES ********************************/

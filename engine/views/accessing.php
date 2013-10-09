@@ -37,7 +37,10 @@
                     <input id="sgn_email" type="text" placeholder="<?php echo _("Email"); ?>"/>
                     <input id="sgn_password" type="password" placeholder="<?php echo _("Password"); ?>"/>
                     <input id="sgn_confirm" type="password" placeholder="<?php echo _("Confirm password"); ?>"/>
-                    <div id="signup" class="buttonGreen"><?php echo _("Send"); ?></div>
+                    <div id="signup" class="buttonGreen"><?php echo _("Signup"); ?></div>
+                    <div id="providers">
+                        <div id="facebookLogin">Login with Facebook</div>
+                    </div>
                 </div>
                 <div id="artistImage">
                     
